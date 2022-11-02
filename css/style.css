@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+/* Header */
+
+header{
+    height: 50px;
+    width: 100%;
+    text-align: right;
+}
+
+.btn-header{
+    padding: 10px 20px 0 0;
+}
+
+/* Main */
+
+main{
+    width: 95%;
+    height: calc(100vh - 130px);
+}
+
+/* Footer */
+
+footer{
+    background-color: #222222;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    height: 50px;
+}
