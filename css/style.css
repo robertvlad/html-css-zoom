@@ -21,6 +21,7 @@ header{
     padding: 10px 20px 0 0;
 }
 
+
 /* Main */
 
 main{
@@ -64,6 +65,8 @@ main{
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
 }
+
+
 /* Footer */
 
 footer{
@@ -74,6 +77,32 @@ footer{
     justify-content: space-between;
 }
 
-footer div{
-    height: 50px;
+.footer-left, .footer-center, .footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+footer .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.icon i{
+    font-size: 20px;
+}
+
+.green-icon{
+    color: #adff2f;
+}
+
+.btn-right-footer{
+    color: #ff0000;
+    height: 100%;
+    padding: 20px;
+    background-color: #4a4a4a;
 }
